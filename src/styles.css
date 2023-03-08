@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Poppins&family=Press+Start+2P&family=Roboto:wght@500&family=Sacramento&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+}
+.nightMode {
+  background-color: black;
+}
+.dayMode {
+  background-color: orange;
+}
+.navbar .logo {
+  font-size: 8px;
+  padding: 8px;
+  margin-left: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.navbar .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .menu li {
+  list-style: none;
+  margin: 5px;
+}
+.navbar .menu li a {
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(https://images.unsplash.com/photo-1647870089235-3c438c6992d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+  background-position: center;
+  background-size: cover;
+  background-color: skyblue;
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: aqua;
+
+  font-size: 10px;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 220px;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid lightgray;
+  padding: 5px;
+  text-align: center;
+}
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.card h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+}
